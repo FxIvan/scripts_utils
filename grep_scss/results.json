@@ -1,66 +1,70 @@
 {
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/_bodyAmp.scss": [
-    "--bg",
-    "--gray-10"
+    "var(--bg)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/_mixinsAmp.scss": [
-    "--gray-40",
-    "--gray-80"
+    "var(--gray-40)",
+    "var(--gray-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/_pictureAmp.scss": [
-    "--orange-10",
-    "--orange-50",
-    "--bg",
+    "var(--orange-10)",
+    "var(--orange-50)",
+    "var(--orange-100)",
+    "var(--bg-color)",
     "#f58e1f"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_adsAmp.scss": [
-    "--white-100",
-    "--gray-0",
-    "--black-100",
-    "--gray-90"
+    "var(--white-100)",
+    "var(--gray-0)",
+    "var(--black-100)",
+    "var(--gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleAmp.scss": [
-    "--gray-10",
-    "--blue-100",
-    "--yellow-50",
-    "--gray-110",
-    "--green-10",
-    "--red-10",
-    "--gray-90",
-    "--gray-80",
-    "--white-100",
-    "--gray-40",
-    "--gray-30"
+    "var(--gray-100)",
+    "var(--blue-100)",
+    "var(--yellow-50)",
+    "var(--gray-110)",
+    "var(--green-100)",
+    "var(--red-100)",
+    "var(--gray-90)",
+    "var(--gray-80)",
+    "var(--white-100)",
+    "var(--gray-40)",
+    "var(--gray-10)",
+    "var(--gray-30)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleBloggingAmp.scss": [
-    "--gray-10",
-    "--gray-40",
-    "--gray-90",
-    "--orange-10",
-    "--blue-100",
-    "--yellow-100",
-    "--green-10",
-    "--red-10",
-    "--black-100",
-    "--gray-80",
-    "--gray-30"
+    "var(--gray-100)",
+    "var(--gray-40)",
+    "var(--gray-90)",
+    "var(--orange-100)",
+    "var(--blue-100)",
+    "var(--yellow-100)",
+    "var(--green-100)",
+    "var(--red-100)",
+    "var(--black-100)",
+    "var(--gray-80)",
+    "var(--gray-10)",
+    "var(--gray-30)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleHeaderAmp.scss": [
-    "--gray-40",
-    "--gray-90",
-    "--gray-10"
+    "var(--gray-40)",
+    "var(--gray-90)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_authorTitleAmp.scss": [
-    "--gray-40",
-    "--gray-10",
-    "--gray-90",
+    "var(--gray-40)",
+    "var(--gray-100)",
+    "var(--gray-90)",
     "#d5d5d5"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_bajalibrosCardAmp.scss": [
-    "--white-100",
-    "--gray-90",
-    "--orange-10",
-    "--gray-10",
+    "var(--white-100)",
+    "var(--gray-90)",
+    "var(--orange-100)",
+    "var(--gray-100)",
+    "var(--gray-10)",
     "#f68e01",
     "#f68e01",
     "#169d5d",
@@ -72,120 +76,127 @@
     "#169d5d"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_blockquoteAmp.scss": [
-    "--orange-10",
-    "--gray-10"
+    "var(--orange-100)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_byLineAmp.scss": [
-    "--gray-90"
+    "var(--gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_cardReviewAmp.scss": [
-    "--gray-50",
-    "--cyan-100",
-    "--gray-85",
-    "--white-100",
-    "--gray-10",
+    "var(--gray-50)",
+    "var(--cyan-100)",
+    "var(--gray-85)",
+    "var(--white-100)",
+    "var(--gray-100)",
     "#fff;\n "
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_consentAmp.scss": [
-    "--orange-10",
-    "--gray-10",
-    "--gray-90",
-    "--orange-40",
-    "--gray-50"
+    "var(--orange-100)",
+    "var(--orange-10)",
+    "var(--gray-100)",
+    "var(--gray-90)",
+    "var(--orange-40)",
+    "var(--gray-50)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardAmp.scss": [
-    "--election-gray-10",
-    "--gray-10"
+    "var(--election-gray-10)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardsAmp.scss": [
-    "--election-gray-90",
-    "--gray-50",
-    "--white-100"
+    "var(--election-gray-90)",
+    "var(--gray-50)",
+    "var(--white-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardsContainerAmp.scss": [
-    "--election-gray-40",
-    "--election-gray-90"
+    "var(--election-gray-40)",
+    "var(--election-gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionSumaryBarAmp.scss": [
-    "--election-gray-40",
-    "--election-gray-90"
+    "var(--electon-gray-40)",
+    "var(--election-gray-40)",
+    "var(--election-gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionTittleBarAmp.scss": [
-    "--orange-10",
-    "--gray-10",
-    "--election-gray-40",
-    "--election-gray-90"
+    "var(--orange-100)",
+    "var(--gray-100)",
+    "var(--election-gray-40)",
+    "var(--election-gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_feedlistAmp.scss": [
-    "--gray-40",
-    "--gray-10",
-    "--gray-90",
-    "--white-100",
-    "--gray-50",
-    "--gray-60"
+    "var(--gray-40)",
+    "var(--gray-100)",
+    "var(--gray-90)",
+    "var(--white-100)",
+    "var(--gray-50)",
+    "var(--gray-10)",
+    "var(--gray-60)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_figcaptionAmp.scss": [
-    "--gray-80"
+    "var(--gray-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_footerAmp.scss": [
-    "--gray-90",
-    "--gray-0",
-    "--gray-40",
-    "--gray-30",
-    "--gray-10",
-    "--gray-60"
+    "var(--gray-90)",
+    "var(--gray-0)",
+    "var(--gray-40)",
+    "var(--gray-30)",
+    "var(--gray-10)",
+    "var(--gray-60)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_headerTitleAmp.scss": [
-    "--gray-40",
-    "--orange-10",
-    "--red-10",
-    "--green-10",
-    "--cyan-100"
+    "var(--gray-40)",
+    "var(--orange-100)",
+    "var(--red-100)",
+    "var(--green-100)",
+    "var(--cyan-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_headlineAmp.scss": [
-    "--gray-especial-hl",
-    "--red-10",
-    "--gray-10"
+    "var(--gray-especial-hl)",
+    "var(--red-100)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_imageAmp.scss": [
-    "--orange-120"
+    "var(--orange-120)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_jwplayerAmp.scss": [
-    "--gray-80"
+    "var(--gray-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_latestFeedAmp.scss": [
-    "--gray-40",
-    "--gray-80",
-    "--orange-10",
-    "--red-10",
-    "--green-10",
-    "--cyan-100",
-    "--gray-10"
+    "var(--gray-40)",
+    "var(--gray-80)",
+    "var(--orange-100)",
+    "var(--red-100)",
+    "var(--green-100)",
+    "var(--cyan-100)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_mastheadNavbarAmp.scss": [
-    "--white-100",
-    "--orange-50",
-    "--gray-90",
-    "--gray-50",
-    "--orange-10",
-    "--orange-20",
-    "--orange-40",
-    "--black-100",
-    "--gray-40",
-    "--headlines",
-    "--gray-10",
-    "--gray-80",
-    "--dark-blue-100",
-    "--gray-especial-deck"
+    "var(--white-100)",
+    "var(--orange-50)",
+    "var(--gray-90)",
+    "var(--gray-50)",
+    "var(--orange-10)",
+    "var(--orange-20)",
+    "var(--orange-40)",
+    "var(--content)",
+    "var(--font-size)",
+    "var(--orange-100)",
+    "var(--black-100)",
+    "var(--gray-40)",
+    "var(--headlines)",
+    "var(--gray-100)",
+    "var(--gray-80)",
+    "var(--dark-blue-100)",
+    "var(--gray-especial-deck)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_mostReadAmp.scss": [
-    "--gray-40",
-    "--gray-10",
-    "--gray-50",
-    "--gray-90",
-    "--gray-80"
+    "var(--gray-40)",
+    "var(--gray-10)",
+    "var(--gray-50)",
+    "var(--gray-90)",
+    "var(--gray-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_newsletterAmp.scss": [
+    "var(--color-button)",
     "#d5d5d5",
     "#d5d5d5",
     "#f68e01",
@@ -197,32 +208,37 @@
     "#707070"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastCarouselAmp.scss": [
-    "--gray-especial-hl"
+    "var(--gray-especial-hl)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastHeaderAmp.scss": [
-    "--gray-especial-deck",
-    "--black-100",
+    "var(--gray-especial-deck)",
+    "var(--black-100)",
     "#f68e01",
     "#000000"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastInfoAmp.scss": [
-    "--gray-especial-deck",
-    "--dark-90"
+    "var(--gray-especial-deck)",
+    "var(--dark-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastMiniatureChapterAmp.scss": [
-    "--black-100",
-    "--gray-especial-hl",
-    "--dark-80"
+    "var(--black-100)",
+    "var(--gray-especial-hl)",
+    "var(--dark-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastPlayerAmp.scss": [
-    "--gray-especial-deck",
-    "--white-100",
-    "--gray-especial-hl",
+    "var(--gray-especial-deck)",
+    "var(--white-100)",
+    "var(--gray-especial-hl)",
     "#0f0f0f",
     "#1f1f1f",
     "#f68e01"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_recommendedCardAmp.scss": [
+    "var(--border-color-hover)",
+    "var(--background-card)",
+    "var(--background-card-hover)",
+    "var(--border-color)",
+    "var(--show-more-color)",
     "#fff9f2",
     "#fef4e6",
     "#fabb67",
@@ -237,9 +253,9 @@
     "#d88080"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_shareButtonsAmp.scss": [
-    "--gray-80",
-    "--gray-10",
-    "--gray-90",
+    "var(--gray-80)",
+    "var(--gray-10)",
+    "var(--gray-90)",
     "#d5d5d5",
     "#555;\n ",
     "#c2c2c2",
@@ -250,24 +266,24 @@
     "#3b3b3b"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_shareMenuAmp.scss": [
-    "--white-100",
-    "--black-100",
-    "--gray-40",
-    "--gray-90",
-    "--green-10",
-    "--gray-60",
-    "--gray-10",
-    "--gray-70",
-    "--gray-80"
+    "var(--white-100)",
+    "var(--black-100)",
+    "var(--gray-40)",
+    "var(--gray-90)",
+    "var(--green-100)",
+    "var(--gray-60)",
+    "var(--gray-10)",
+    "var(--gray-70)",
+    "var(--gray-80)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_sideMenuAmp.scss": [
-    "--gray-0",
-    "--gray-40",
-    "--gray-50",
-    "--gray-90",
-    "--gray-60",
-    "--gray-20",
-    "--orange-10",
+    "var(--gray-0)",
+    "var(--gray-40)",
+    "var(--gray-50)",
+    "var(--gray-90)",
+    "var(--gray-60)",
+    "var(--gray-20)",
+    "var(--orange-100)",
     "#f28b5f",
     "#172026",
     "#3c4043",
@@ -277,57 +293,58 @@
     "#91a5be"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_title-barAmp.scss": [
-    "--gray-40",
-    "--orange-10",
-    "--green-10",
-    "--red-10",
-    "--cyan-100",
-    "--gray-10"
+    "var(--gray-40)",
+    "var(--orange-100)",
+    "var(--green-100)",
+    "var(--red-100)",
+    "var(--cyan-100)",
+    "var(--gray-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/feriados/_calendarFeriadosAmp.scss": [
-    "--gray-0",
-    "--gray-40",
-    "--gray-10",
-    "--orange-0",
-    "--orange-50",
-    "--gray-90",
-    "--orange-10",
-    "--gray-50",
-    "--gray-80",
-    "--white-100",
-    "--orange-30",
+    "var(--gray-0)",
+    "var(--gray-40)",
+    "var(--gray-100)",
+    "var(--orange-0)",
+    "var(--orange-50)",
+    "var(--gray-90)",
+    "var(--orange-100)",
+    "var(--gray-10)",
+    "var(--gray-50)",
+    "var(--gray-80)",
+    "var(--white-100)",
+    "var(--orange-30)",
     "#80c185"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/framework/_backgroundAmp.scss": [
-    "--white-100",
-    "--gray-110",
-    "--red-10",
-    "--blue-100",
-    "--gray-10",
-    "--green-10",
-    "--orange-10",
-    "--gray-90"
+    "var(--white-100)",
+    "var(--gray-110)",
+    "var(--red-100)",
+    "var(--blue-100)",
+    "var(--gray-10)",
+    "var(--green-100)",
+    "var(--orange-100)",
+    "var(--gray-90)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/framework/_borderAmp.scss": [
-    "--gray-70",
-    "--gray-90",
-    "--gray-40",
-    "--gray-50",
-    "--gray-10"
+    "var(--gray-70)",
+    "var(--gray-90)",
+    "var(--gray-40)",
+    "var(--gray-50)",
+    "var(--gray-10)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/framework/_colorsAmp.scss": [
-    "--red-10",
-    "--orange-10",
-    "--white-100",
-    "--gray-10",
-    "--black-100"
+    "var(--red-100)",
+    "var(--orange-100)",
+    "var(--white-100)",
+    "var(--gray-10)",
+    "var(--black-100)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/framework/_headersAmp.scss": [
-    "--gray-10",
-    "--orange-110"
+    "var(--gray-100)",
+    "var(--orange-110)"
   ],
   "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/layouts/_podcastAmp.scss": [
-    "--gray-30",
+    "var(--gray-30)",
     "#1a0f00",
     "#1a1a1a",
     "#3b3b3b"
