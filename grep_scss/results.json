@@ -1,0 +1,237 @@
+{
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_adsAmp.scss": [
+    "--white-100",
+    "--gray-0",
+    "--black-100",
+    "--gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleAmp.scss": [
+    "--gray-10",
+    "--blue-100",
+    "--yellow-50",
+    "--gray-110",
+    "--green-10",
+    "--red-10",
+    "--gray-90",
+    "--gray-80",
+    "--white-100",
+    "--gray-40",
+    "--gray-30"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleBloggingAmp.scss": [
+    "--gray-10",
+    "--gray-40",
+    "--gray-90",
+    "--orange-10",
+    "--blue-100",
+    "--yellow-100",
+    "--green-10",
+    "--red-10",
+    "--black-100",
+    "--gray-80",
+    "--gray-30"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_articleHeaderAmp.scss": [
+    "--gray-40",
+    "--gray-90",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_authorTitleAmp.scss": [
+    "--gray-40",
+    "--gray-10",
+    "--gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_bajalibrosCardAmp.scss": [
+    "--white-100",
+    "--gray-90",
+    "--orange-10",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_blockquoteAmp.scss": [
+    "--orange-10",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_byLineAmp.scss": [
+    "--gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_cardReviewAmp.scss": [
+    "--gray-50",
+    "--cyan-100",
+    "--gray-85",
+    "--white-100",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_consentAmp.scss": [
+    "--orange-10",
+    "--gray-10",
+    "--gray-90",
+    "--orange-40",
+    "--gray-50"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardAmp.scss": [
+    "--election-gray-10",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardsAmp.scss": [
+    "--election-gray-90",
+    "--gray-50",
+    "--white-100"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionCardsContainerAmp.scss": [
+    "--election-gray-40",
+    "--election-gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionSumaryBarAmp.scss": [
+    "--election-gray-40",
+    "--election-gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_electionTittleBarAmp.scss": [
+    "--orange-10",
+    "--gray-10",
+    "--election-gray-40",
+    "--election-gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_feedlistAmp.scss": [
+    "--gray-40",
+    "--gray-10",
+    "--gray-90",
+    "--white-100",
+    "--gray-50",
+    "--gray-60"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_figcaptionAmp.scss": [
+    "--gray-80"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_footerAmp.scss": [
+    "--gray-90",
+    "--gray-0",
+    "--gray-40",
+    "--gray-30",
+    "--gray-10",
+    "--gray-60"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_headerTitleAmp.scss": [
+    "--gray-40",
+    "--orange-10",
+    "--red-10",
+    "--green-10",
+    "--cyan-100"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_headlineAmp.scss": [
+    "--gray-especial-hl",
+    "--red-10",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_imageAmp.scss": [
+    "--orange-120"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_jwplayerAmp.scss": [
+    "--gray-80"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_latestFeedAmp.scss": [
+    "--gray-40",
+    "--gray-80",
+    "--orange-10",
+    "--red-10",
+    "--green-10",
+    "--cyan-100",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_mastheadNavbarAmp.scss": [
+    "--white-100",
+    "--orange-50",
+    "--gray-90",
+    "--gray-50",
+    "--orange-10",
+    "--orange-20",
+    "--orange-40",
+    "--black-100",
+    "--gray-40",
+    "--headlines",
+    "--gray-10",
+    "--gray-80",
+    "--dark-blue-100",
+    "--gray-especial-deck"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_mostReadAmp.scss": [
+    "--gray-40",
+    "--gray-10",
+    "--gray-50",
+    "--gray-90",
+    "--gray-80"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastCarouselAmp.scss": [
+    "--gray-especial-hl"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastHeaderAmp.scss": [
+    "--gray-especial-deck",
+    "--black-100"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastInfoAmp.scss": [
+    "--gray-especial-deck",
+    "--dark-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastMiniatureChapterAmp.scss": [
+    "--black-100",
+    "--gray-especial-hl",
+    "--dark-80"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_podcastPlayerAmp.scss": [
+    "--gray-especial-deck",
+    "--white-100",
+    "--gray-especial-hl"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_shareButtonsAmp.scss": [
+    "--gray-80",
+    "--gray-10",
+    "--gray-90"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_shareMenuAmp.scss": [
+    "--white-100",
+    "--black-100",
+    "--gray-40",
+    "--gray-90",
+    "--green-10",
+    "--gray-60",
+    "--gray-10",
+    "--gray-70",
+    "--gray-80"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_sideMenuAmp.scss": [
+    "--gray-0",
+    "--gray-40",
+    "--gray-50",
+    "--gray-90",
+    "--gray-60",
+    "--gray-20",
+    "--orange-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/_title-barAmp.scss": [
+    "--gray-40",
+    "--orange-10",
+    "--green-10",
+    "--red-10",
+    "--cyan-100",
+    "--gray-10"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/features/feriados/_calendarFeriadosAmp.scss": [
+    "--gray-0",
+    "--gray-40",
+    "--gray-10",
+    "--orange-0",
+    "--orange-50",
+    "--gray-90",
+    "--orange-10",
+    "--gray-50",
+    "--gray-80",
+    "--white-100",
+    "--orange-30"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/framework/_headersAmp.scss": [
+    "--gray-10",
+    "--orange-110"
+  ],
+  "/home/almendra/Infobae-PageBuilder-Fusion-Features/src/base/layouts/_podcastAmp.scss": [
+    "--gray-30"
+  ]
+}
