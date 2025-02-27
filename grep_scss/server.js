@@ -61,7 +61,10 @@ const colorVariables = [
 // Función para buscar las variables en los archivos .scss
 async function searchColorVariables(isAmp) {
     const regex = new RegExp(colorVariables.join('|'), 'g');
+    const hexColorRegex = /#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})/g; // Regex para colores hexadecimales
     const results = {};
+    const hexColorsFound = new Set(); // Conjunto para almacenar colores hexadecimales encontrados
+    const colorVariableList = new Set(); // Conjunto para almacenar todas las variables de color encontradas
 
     for (const dir of directories) {
         const files = await fs.promises.readdir(dir);
@@ -76,29 +79,32 @@ async function searchColorVariables(isAmp) {
                 
                 if (matches) {
                     results[filePath] = [...new Set(matches)];
+                    matches.forEach(variable => colorVariableList.add(variable)); // Agregar variables a la lista
+                }
+
+                // Buscar colores hexadecimales
+                const hexMatches = data.match(hexColorRegex);
+                if (hexMatches) {
+                    for (const hex of hexMatches) {
+                        const index = data.indexOf(hex);
+                        const colorValue = data.slice(index, index + 7); // 7 caracteres: # seguido de 6
+                        if (!results[filePath]) {
+                            results[filePath] = [];
+                        }
+                        results[filePath].push(colorValue);
+                        hexColorsFound.add(colorValue); // Agregar al conjunto de colores hexadecimales
+                    }
                 }
             }
         }
     }
 
-    return results;
-}
-
-// Función para listar variables grises
-function listGrayVariables(results) {
-    const grayVariables = [];
-
-    for (const variables of Object.values(results)) {
-        grayVariables.push(...variables.filter(variable => variable.startsWith('--gray')));
-    }
-
-    return [...new Set(grayVariables)];
+    return { results, hexColorsFound, colorVariableList };
 }
 
 // Función para guardar resultados en JSON y HTML
 async function saveResults(isAmp) {
-    const results = await searchColorVariables(isAmp);
-    const grayList = listGrayVariables(results);
+    const { results, hexColorsFound, colorVariableList } = await searchColorVariables(isAmp);
     
     // Guardar en archivo JSON
     fs.writeFileSync('results.json', JSON.stringify(results, null, 2), 'utf8');
@@ -124,11 +130,19 @@ async function saveResults(isAmp) {
         htmlContent += `<li><strong>${filePath}</strong><pre>${variables.join(', ')}</pre></li>`;
     }
 
-    // Agregar la lista de variables grises al final
-    if (grayList.length > 0) {
+    // Agregar la lista de todas las variables de color encontradas
+    if (colorVariableList.size > 0) {
         htmlContent += `
-            <h2>Variables Grises Usadas:</h2>
-            <pre>${grayList.join(', ')}</pre>
+            <h2>Variables de Color Usadas:</h2>
+            <pre>${Array.from(colorVariableList).join(', ')}</pre>
+        `;
+    }
+
+    // Agregar resumen de colores hexadecimales
+    if (hexColorsFound.size > 0) {
+        htmlContent += `
+            <h2>Colores Hexadecimales Encontrados:</h2>
+            <pre>${Array.from(hexColorsFound).join(', ')}</pre>
         `;
     }
 
