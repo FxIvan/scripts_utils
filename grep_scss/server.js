@@ -84,9 +84,21 @@ async function searchColorVariables(isAmp) {
     return results;
 }
 
+// Función para listar variables grises
+function listGrayVariables(results) {
+    const grayVariables = [];
+
+    for (const variables of Object.values(results)) {
+        grayVariables.push(...variables.filter(variable => variable.startsWith('--gray')));
+    }
+
+    return [...new Set(grayVariables)];
+}
+
 // Función para guardar resultados en JSON y HTML
 async function saveResults(isAmp) {
     const results = await searchColorVariables(isAmp);
+    const grayList = listGrayVariables(results);
     
     // Guardar en archivo JSON
     fs.writeFileSync('results.json', JSON.stringify(results, null, 2), 'utf8');
@@ -110,6 +122,14 @@ async function saveResults(isAmp) {
 
     for (const [filePath, variables] of Object.entries(results)) {
         htmlContent += `<li><strong>${filePath}</strong><pre>${variables.join(', ')}</pre></li>`;
+    }
+
+    // Agregar la lista de variables grises al final
+    if (grayList.length > 0) {
+        htmlContent += `
+            <h2>Variables Grises Usadas:</h2>
+            <pre>${grayList.join(', ')}</pre>
+        `;
     }
 
     htmlContent += `
